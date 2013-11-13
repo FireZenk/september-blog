@@ -1,0 +1,30 @@
+{
+  "name": "september",
+  "version": "0.0.1",
+  "description": "A node.js powered blog system",
+  "keywords": ["blog","rest","coffee","mongodb"],
+  "engines": {
+    "node": "0.10.x",
+    "npm":  "1.2.x"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "http://github.com/tmpvar/FireZenk/blob/master/LICENSE.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/FireZenk/september.git"
+  },
+  "dependencies": {
+    "express": "3.x",
+    "mongojs": "0.9.6"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.7.0"
+  },
+  "directories": {
+        "lib": "./lib/routes"
+  },
+  "main": "./lib/september"
+}
