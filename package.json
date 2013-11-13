@@ -2,10 +2,15 @@
   "name": "september",
   "version": "0.0.1",
   "description": "A node.js powered blog system",
-  "keywords": ["blog","rest","coffee","mongodb"],
+  "keywords": [
+    "blog",
+    "rest",
+    "coffee",
+    "mongodb"
+  ],
   "engines": {
     "node": "0.10.x",
-    "npm":  "1.2.x"
+    "npm": "1.2.x"
   },
   "license": {
     "type": "MIT",
@@ -21,10 +26,12 @@
   },
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-coffee": "~0.7.0"
+    "grunt-contrib-coffee": "~0.7.0",
+    "mocha": "1.14.0",
+    "should": "~2.1.0"
   },
   "directories": {
-        "lib": "./lib/routes"
+    "lib": "./lib/routes"
   },
   "main": "./lib/september"
 }

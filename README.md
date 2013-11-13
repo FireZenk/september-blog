@@ -2,7 +2,7 @@
 
 ###### A node.js powered blog system
 
-The blog system is native implemented in CoffeeScript and translated to JavaScript using Grunt.
+The blog system is native implemented in CoffeeScript and translated to JavaScript using Grunt and tested with Mocha.
 
 ### Install:
 
