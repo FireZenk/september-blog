@@ -1,0 +1,4 @@
+.DS_Store
+Gruntfile.coffee
+node_modules
+data
