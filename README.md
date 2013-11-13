@@ -1,7 +1,7 @@
-# September
+# September-blog
 
 ###### A node.js powered blog system
 
 ### Install:
 
-`npm install september`
+`npm install september-blog`
