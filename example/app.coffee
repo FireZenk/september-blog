@@ -17,7 +17,7 @@ mongojs = require 'mongojs'
 septemberb.run app, mongojs
 
 # Serve index page
-app.use '/', express.static '../../client/'
+app.use '/', express.static('../../client/')
 
 # FIX: Heroku port override:
 port = process.env.PORT || 5000
