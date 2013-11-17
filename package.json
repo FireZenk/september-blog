@@ -1,5 +1,5 @@
 {
-  "name": "september",
+  "name": "september-blog",
   "version": "0.0.1",
   "description": "A node.js powered blog system",
   "keywords": [
@@ -12,10 +12,7 @@
     "node": "0.10.x",
     "npm": "1.2.x"
   },
-  "license": {
-    "type": "MIT",
-    "url": "http://github.com/tmpvar/FireZenk/blob/master/LICENSE.txt"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/FireZenk/september.git"
@@ -31,7 +28,16 @@
     "should": "~2.1.0"
   },
   "directories": {
-    "lib": "./lib/routes"
+    "example": "example",
+    "test": "test"
   },
-  "main": "./lib/september"
+  "main": "./lib/september",
+  "bugs": {
+    "url": "https://github.com/FireZenk/september/issues"
+  },
+  "homepage": "https://github.com/FireZenk/september",
+  "scripts": {
+    "test": "make test"
+  },
+  "author": "Jorge Garrido Oval <FireZenk>"
 }
